@@ -1,3 +1,2 @@
-Get-AzSubscription
-Set-AzContext -Subscription "SubscriptionName"
-Get-AzVm -ResourceGroupName Resource-group-name-001 -Name "Virtual-Machine-Name-001" --output json --status
+az account set --subscription SubscriptionName
+Az vm get-instance-view --resource-group Resource-group-Name-001 -name "Virtual-Machine-Name-001" --output json
